@@ -4,17 +4,58 @@
     border: 5px;
     height: 25px;
     justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 .headerlogo {
     display: flex;
     color: #F9FAF8;
     font-size: 24px;
     justify-content: flex-start;
+    padding: 5px;
 }
 .headerlinks {
     display: flex;
     color: #E5E7EB;
     font-size: 18px;
     justify-content: flex-end;
+    padding: 5px;
 
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 75px;
 }  
+.IntroMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.IntroTitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.IntroSubtext {
+    font-size: 18px;
+    color: #E5E7EB
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 70px;
+    padding: 15px;
+}
+.IntroImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+}
